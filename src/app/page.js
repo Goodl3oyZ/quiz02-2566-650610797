@@ -25,7 +25,7 @@ export default function HomePage() {
         <Comment
           userImagePath="/profileImages/lisa.jpg"
           username="Lisa"
-          replyText="จริงค่า"
+          commentText="จริงค่า"
           likeNum="999"
         />
 
@@ -45,7 +45,7 @@ export default function HomePage() {
         <Comment
           userImagePath="/profileImages/Charliebrown.jpg"
           username="Charlie Brown"
-          replyText="บ้าไปแล้ว"
+          commentText="บ้าไปแล้ว"
           likeNum="0"
         />
       </div>
