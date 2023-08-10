@@ -1,3 +1,5 @@
+import { Reply } from "./Reply";
+
 export const Comment = ({
   userImagePath,
   username,
@@ -6,6 +8,9 @@ export const Comment = ({
   replies,
 }) => {
   const haveLike = likeNum > 0 ? true : false;
+  const commentReply = () => {
+    replies = Reply;
+  };
   return (
     <div>
       <div className="d-flex gap-2 my-2">
